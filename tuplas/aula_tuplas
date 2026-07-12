@@ -1,0 +1,23 @@
+TUPLAS_AULA_1
+
+tuplas é uma variável composta que pode armazenar varias informações,
+as informações são separados por índices [0,1,2,3,4,5].
+
+    EX:
+            code.py
+
+            lanche = sopa, biscoito, pudim ,suco
+            print(lanche) 
+            #resultado: sopa biscoito pudim suco
+
+            print(lanche[1])
+            #resultado: biscoito
+
+Os índices começam do 0 ao valor n, como sopa[0], biscoito[1], pudim[2], suco[3].
+Para fazer o computador começar a mostrar o valor a partir do índice [1], ignorando o índice [0],
+você digita: print(lanche[1:])
+             #resultado: biscoito pudim suco
+
+
+
+
